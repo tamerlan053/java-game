@@ -7,6 +7,6 @@ public abstract class Person {
   private String name;
 
   public Person(String id, String name) {
-    
+    String newID = "";
   }
 }
