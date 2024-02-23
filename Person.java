@@ -9,5 +9,6 @@ public abstract class Person {
   public Person(String id, String name) {
     String newID = "";
     this.id = id;
+    this.name = name;
   }
 }
