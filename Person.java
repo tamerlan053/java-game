@@ -14,7 +14,11 @@ public abstract class Person {
               newID += c;
           }
       }
-    this.id = id;
+    if (newID.length() > 3) {
+        this.id = newID.substring(0, 3).toUpperCase();
+    } else {
+        this.id = newID.toUpperCase();
+    }
     this.name = name;
   }
 }
