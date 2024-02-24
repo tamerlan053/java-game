@@ -19,6 +19,10 @@ public abstract class Person {
     } else {
         this.id = newID.toUpperCase();
     }
-    this.name = name;
+      this.name = name;
+  }
+
+  public String getId() {
+      return id;
   }
 }
