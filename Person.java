@@ -37,4 +37,9 @@ public abstract class Person {
         Person person = (Person) o;
         return Objects.equals(id, person.id);
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
+    }
 }
