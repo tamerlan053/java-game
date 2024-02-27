@@ -42,4 +42,10 @@ public abstract class Person {
     public int hashCode() {
         return Objects.hash(id);
     }
+
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(String.format("[%s] %s", id, name));
+        return stringBuilder.toString();
+    }
 }
