@@ -1,5 +1,5 @@
 package my.game;
 
-public class Player {
-  
+public class Player extends Person {
+    
 }
