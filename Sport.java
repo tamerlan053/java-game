@@ -8,4 +8,8 @@ public enum Sport {
   Sport(int numberOfPlayers) {
     this.numberOfPlayers = numberOfPlayers;
   }
+
+  public int getNumberOfPlayers() {
+    return numberOfPlayers;
+  }
 }
