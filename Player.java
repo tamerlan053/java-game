@@ -7,4 +7,8 @@ public class Player extends Person {
         super(id, name);
         this.sport = sport;
     }
+
+    public Player(String id) {
+        this(id, "", null);
+    }
 }
