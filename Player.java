@@ -11,4 +11,8 @@ public class Player extends Person {
     public Player(String id) {
         this(id, "", null);
     }
+
+    public Sport getSport() {
+        return sport;
+    }
 }
