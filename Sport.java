@@ -12,4 +12,10 @@ public enum Sport {
   public int getNumberOfPlayers() {
     return numberOfPlayers;
   }
+
+  public String toString() {
+    StringBuilder stringBuilder = new StringBuilder();
+    stringBuilder.append(name().substring(0, 3).toLowerCase());
+    return stringBuilder.toString();
+  }
 }
