@@ -15,4 +15,8 @@ public class Player extends Person {
     public Sport getSport() {
         return sport;
     }
+
+    public String toString() {
+        
+    }
 }
