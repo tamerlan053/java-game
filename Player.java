@@ -17,6 +17,11 @@ public class Player extends Person {
     }
 
     public String toString() {
-        
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(super.toString());
+        if (sport != null) {
+            stringBuilder.append(" (").append(sport).append(")");
+        }
+        return stringBuilder.toString();
     }
 }
