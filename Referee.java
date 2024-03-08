@@ -1,5 +1,5 @@
 package my.game;
 
-public final class Referee extends Persoon {
+public final class Referee extends Person {
   
 }
