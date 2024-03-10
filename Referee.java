@@ -7,6 +7,9 @@ public final class Referee extends Person {
     }
 
     public String toString() {
-        
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(super.toString());
+        stringBuilder.append("").append("<ref>");
+        return stringBuilder.toString();
     }  
 }
