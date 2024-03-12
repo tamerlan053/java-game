@@ -8,4 +8,8 @@ public class Team {
         this.sport = sport;
         this.players = new Player[sport.getNumberOfPlayers()];
     }
+
+    public void addPlayer(Player player) {
+        
+    }
 }
