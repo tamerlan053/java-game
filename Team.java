@@ -10,6 +10,13 @@ public class Team {
     }
 
     public void addPlayer(Player player) {
-        
+        if (player.getSport().equals(sport)) {
+           for (int i = 0; i < players.length; i++) {
+                if (players[i] == null) {
+                    players[i] = player;
+                    return;
+                }
+           }
+        }
     }
 }
