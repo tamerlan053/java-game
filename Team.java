@@ -20,6 +20,7 @@ public class Team {
                     return;
                 }
            }
+           System.out.println("Incorrect input");
         }
     }
 }
