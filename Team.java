@@ -15,6 +15,9 @@ public class Team {
                 if (players[i] == null) {
                     players[i] = player;
                     return;
+                } else if (players[i].getId().equals(player.getId())) {
+                    System.out.println("Incorrect");
+                    return;
                 }
            }
         }
