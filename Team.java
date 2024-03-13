@@ -21,6 +21,8 @@ public class Team {
                 }
            }
            System.out.println("Incorrect input");
+        } else {
+           System.out.println("Incorrect input");
         }
     }
 }
