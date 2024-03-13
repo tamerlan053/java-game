@@ -25,4 +25,8 @@ public class Team {
            System.out.println("Incorrect input");
         }
     }
+
+    private boolean isPresent(Player player) {
+        return true;
+    }
 }
