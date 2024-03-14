@@ -27,6 +27,10 @@ public class Team {
     }
 
     private boolean isPresent(Player player) {
-        return true;
+        for (int i = 0; i < players.length; i++) {
+            if (players[i].equals(player)) {
+                return true;
+            }
+        }
     }
 }
