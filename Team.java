@@ -36,6 +36,11 @@ public class Team {
     }
 
     private int findFreePosition() {
-        
+        for (int i = 0; i < players.length; i++) {
+            if (players[i] == null) {
+                return i;
+            }
+        }
+        return -1;
     }
 }
