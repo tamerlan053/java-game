@@ -43,4 +43,14 @@ public class Team {
         }
         return -1;
     }
+
+    public boolean isPlayerIdPresent(String playerid) {
+        Player player = new Player(playerid);
+        for (int i = 0; i < players.length; i++) {
+            if (players[i].equals(player)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
