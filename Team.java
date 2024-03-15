@@ -34,4 +34,8 @@ public class Team {
         }
         return false;
     }
+
+    private int findFreePosition() {
+        
+    }
 }
