@@ -26,7 +26,7 @@ public class Team {
         }
     }
 
-    private boolean isPresent(Player player) {
+    private boolean isPLayerPresent(Player player) {
         for (int i = 0; i < players.length; i++) {
             if (players[i].equals(player)) {
                 return true;
