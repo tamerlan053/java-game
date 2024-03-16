@@ -53,4 +53,9 @@ public class Team {
         }
         return false;
     }
+
+    public String toString() {
+        String output = "";
+        return output;
+    }
 }
