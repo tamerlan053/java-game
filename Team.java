@@ -56,6 +56,15 @@ public class Team {
 
     public String toString() {
         String output = "";
+        if (findFreePosition() != 1) {
+            output = "Team is not full";
+        } else {
+            for (int i = 0; i < players.length; i++) {
+                if (players[i] != null) {
+                    output += players[i].toString() + "\n";
+                }
+            }
+        }
         return output;
     }
 }
