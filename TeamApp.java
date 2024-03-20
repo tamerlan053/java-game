@@ -18,5 +18,13 @@ public class TeamApp {
         System.out.println(team4);
         team5.addPlayer(player5);
         System.out.println(team5);
+
+        /* output
+        Team is not full
+        Incorrect
+        Team in not full
+        Incorrect
+        Team is not full
+         */
     }
 }
