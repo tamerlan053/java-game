@@ -7,4 +7,6 @@ import java.time.format.DateTimeFormatter;
 public class Competition implements DateComparable {
   private static final DateTimeFormatter FORMAT = DateTimeFormatter.ofPattern("dd/MM/yy HH:mm");
   private LocalDateTime competitionDate;
+  private Team team1;
+  private Team team2;
 }
