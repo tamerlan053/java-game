@@ -12,4 +12,9 @@ public class Competition implements DateComparable {
   private Referee referee;
   private int scoreTeam1;
   private int scoreTeam2;
+
+  public Competition() {
+    
+  }
+  
 }
