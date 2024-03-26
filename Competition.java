@@ -16,5 +16,7 @@ public class Competition implements DateComparable {
   public Competition(Team team1, Team team2, Referee referee, int day, int month, int year, int hour, int minute) {
         this.team1 = team1;
         this.team2 = team2;
+        this.referee = referee;
+        this.competitionDate = LocalDateTime.of(year, month, day, hour, minute);
   }
 }
