@@ -19,4 +19,8 @@ public class Competition implements DateComparable {
         this.referee = referee;
         this.competitionDate = LocalDateTime.of(year, month, day, hour, minute);
   }
+
+  public String toString() {
+    
+  }
 }
