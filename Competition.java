@@ -14,6 +14,7 @@ public class Competition implements DateComparable {
   private int scoreTeam2;
 
   public Competition(Team team1, Team team2, Referee referee, int day, int month, int year, int hour, int minute) {
-    
+        this.team1 = team1;
+        this.team2 = team2;
   }
 }
