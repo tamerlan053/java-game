@@ -21,6 +21,6 @@ public class Competition implements DateComparable {
   }
 
   public String toString() {
-    
+    StringBuilder stringBuilder = new StringBuilder();
   }
 }
