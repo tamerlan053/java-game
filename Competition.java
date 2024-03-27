@@ -26,5 +26,7 @@ public class Competition implements DateComparable {
     stringBuilder.append(team1.toString());
     stringBuilder.append(String.format("%s %n", "TEAM2"));
     stringBuilder.append(team2.toString());
+    stringBuilder.append(competitionDate.format(FORMAT));
+    stringBuilder.append(referee.toString());
   }
 }
