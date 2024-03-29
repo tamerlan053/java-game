@@ -26,6 +26,10 @@ public class Competition implements DateComparable {
     return duration.toMinutes();
   }
 
+  public boolean isPlayerIdPresent(String playerId) {
+    
+  }
+
   public String toString() {
     StringBuilder stringBuilder = new StringBuilder();
     stringBuilder.append(String.format("%s %n", "TEAM1"));
