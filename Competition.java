@@ -27,7 +27,7 @@ public class Competition implements DateComparable {
   }
 
   public boolean isPlayerIdPresent(String playerId) {
-    
+     return team1 != null && team1.isPlayerIdPresent(playerId) || team2 != null && team2.isPlayerIdPresent(playerId);
   }
 
   public String toString() {
