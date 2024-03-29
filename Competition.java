@@ -22,7 +22,8 @@ public class Competition implements DateComparable {
 
   @Override
   public long calculateMinutesAfter(LocalDateTime argument) {
-    
+    Duration duration = Duration.between(competitionDate, argument);
+    return duration.toMinutes();
   }
 
   public String toString() {
