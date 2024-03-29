@@ -20,6 +20,11 @@ public class Competition implements DateComparable {
         this.competitionDate = LocalDateTime.of(year, month, day, hour, minute);
   }
 
+  @Override
+  public long calculateMinutesAfter(LocalDateTime argument) {
+    
+  }
+
   public String toString() {
     StringBuilder stringBuilder = new StringBuilder();
     stringBuilder.append(String.format("%s %n", "TEAM1"));
