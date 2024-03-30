@@ -30,6 +30,10 @@ public class Competition implements DateComparable {
      return team1 != null && team1.isPlayerIdPresent(playerId) || team2 != null && team2.isPlayerIdPresent(playerId);
   }
 
+  public void setScore(int scoreTeam1, int scoreTeam2) {
+    
+  }
+
   public String toString() {
     StringBuilder stringBuilder = new StringBuilder();
     stringBuilder.append(String.format("%s %n", "TEAM1"));
