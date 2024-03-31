@@ -65,6 +65,6 @@ public class Team {
                 }
             }
         }
-        return null;
+        return output;
     }
 }
