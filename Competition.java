@@ -39,6 +39,10 @@ public class Competition implements DateComparable {
         this.competitionDate = competitionDate;
     }
 
+    public LocalDateTime getCompetitionDate() {
+        return competitionDate;
+    }
+
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(String.format("%s %n", "TEAM1"));
