@@ -9,5 +9,6 @@ public class CompetitionApp {
         team1.addPLayer(player2);
 
         Player player3 = new PLayer("Y98RE", "Bjorn Bog", Sport.TENNIS);
+        Player player4 = new PLayer("P11WE", "Rod Laver", Sport.TENNIS);
     }
 }
