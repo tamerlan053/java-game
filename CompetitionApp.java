@@ -15,5 +15,7 @@ public class CompetitionApp {
         team2.addPLayer(player4);
 
         Referee referee = Referee("tbc", "Tibo Courtois");
+
+        Competition competition = new Competition(team1, team2, referee, 1, 9, 2007, 9, 5);
     }
 }
