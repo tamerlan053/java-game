@@ -13,5 +13,7 @@ public class CompetitionApp {
         Team team2 = new Team(Sport.TENNIS);
         team2.addPLayer(player3);
         team2.addPLayer(player4);
+
+        Referee referee = Referee("tbc", "Tibo Courtois");
     }
 }
