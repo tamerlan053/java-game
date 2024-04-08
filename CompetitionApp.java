@@ -17,5 +17,6 @@ public class CompetitionApp {
         Referee referee = Referee("tbc", "Tibo Courtois");
 
         Competition competition = new Competition(team1, team2, referee, 1, 9, 2007, 9, 5);
+        competition.setScore(4, 3);
     }
 }
