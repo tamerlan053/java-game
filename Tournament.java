@@ -7,4 +7,13 @@ public class Tournament {
     public Tournament() {
         this.competitions = new Competition[MAX_COMPETITIONS];
     }
+    
+    public void addCompetition(Competition competition) {
+        for (int i = 0; i < competitions.length; i++) {
+            if (competitions[i] == null) {
+                competitions[i] = competition;
+                return;
+            }
+        } System.out.println("No more space!");    
+    }
 }
