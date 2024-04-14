@@ -22,5 +22,7 @@ public class CompetitionApp {
 
         Competition competition2 = new Competition(team2, team1, referee, 12, 9, 2019, 4, 0);
         Competition competition3 = new Competition(team1, null, referee, 1, 9, 2019, 9, 5);
+
+        Competition competition = new Competition();
     }
 }
