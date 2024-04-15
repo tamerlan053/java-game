@@ -10,5 +10,6 @@ public class TournamentApp {
 
         Player player3 = new Player("Y98RE", "Bjorn Bog", Sport.TENNIS);
         Player player4 = new Player("P11WE", "Rod Laver", Sport.TENNIS);
+        Team team2 = new Team(Sport.TENNIS);
     }
 }
