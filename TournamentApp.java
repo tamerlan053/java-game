@@ -23,5 +23,9 @@ public class TournamentApp {
         Competition competition3 = new Competition(team1, null, referee, 1, 9, 2019, 9, 5);
 
         Tournament tournament = new Tournament();
+
+        tournament.addCompetition(competition);
+        tournament.addCompetition(competition2);
+        tournament.addCompetition(competition3);
     }
 }
