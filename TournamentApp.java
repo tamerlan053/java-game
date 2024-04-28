@@ -13,5 +13,7 @@ public class TournamentApp {
         Team team2 = new Team(Sport.TENNIS);
         team2.addPlayer(player3);
         team2.addPlayer(player4);
+
+        Referee referee = new Referee("aqd", "Kader Nouni");
     }
 }
