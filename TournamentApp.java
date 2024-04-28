@@ -18,5 +18,8 @@ public class TournamentApp {
 
         Competition competition = new Competition(team1, team2, referee, 12, 5, 2019, 9, 5);
         competition.setScore(4, 3);
+
+        Competition competition2 = new Competition(team2, team1, referee, 12, 9, 2019, 14, 0);
+        Competition competition3 = new Competition(team1, null, referee, 1, 9, 2019, 9, 5);
     }
 }
